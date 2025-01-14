@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}Mint Successful{% endblock %}
+
+{% block content %}
+<div class="form-container">
+    <h1>Mint Successful!</h1>
+    <div class="mint-details">
+        <p><strong>Prompt:</strong> {{ prompt }}</p>
+        <p><strong>Token ID:</strong> {{ token_id }}</p>
+        <p><strong>Token URI:</strong> <a href="{{ token_uri }}" target="_blank">{{ token_uri }}</a></p>
+    </div>
+    <br>
+    <a href="/" class="btn">Go Back</a>
+</div>
+{% endblock %}

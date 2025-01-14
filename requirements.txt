@@ -1,0 +1,5 @@
+flask-cors
+grpcio
+grpcio-tools
+protobuf
+fabric-sdk-py
